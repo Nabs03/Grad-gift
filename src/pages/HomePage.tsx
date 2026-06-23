@@ -150,7 +150,7 @@ export default function HomePage() {
                 animation: "pulse-badge 2.4s ease-in-out infinite",
               }}
             >
-              🎓 Class of 2025
+              🎓 Class of 2026
             </div>
           </motion.div>
 
