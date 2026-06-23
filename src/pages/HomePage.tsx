@@ -177,6 +177,15 @@ export default function HomePage() {
             <span className="text-pink-300 font-bold"> you</span>.
           </motion.p>
 
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.45, ease: [0.22, 1, 0.36, 1] }}
+            className="text-purple-100 text-base sm:text-lg max-w-md leading-relaxed"
+          >
+            Congratulations for completing Bachelor of Science in Nursing.
+          </motion.p>
+
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
