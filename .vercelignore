@@ -1,0 +1,11 @@
+# Vercel build context ignore
+.git
+.gitignore
+node_modules
+dist
+build
+.cache
+.vscode
+src/**/*.test.*
+*.log
+
